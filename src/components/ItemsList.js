@@ -27,7 +27,7 @@ export default function ItemsList() {
             items.length ?
                 items.map(item => {
                     return (
-                    <Link to={'/'+item.id}>
+                    <Link to={'/ItemsList/'+item.id}>
                         <div className="cat img" key={item.id}>
                         <img src={item.image} alt="" />
                         <h5>{item.title}</h5>

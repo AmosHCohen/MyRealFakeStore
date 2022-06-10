@@ -16,7 +16,7 @@ export default function Main() {
                     <Route path="/" element={<Categories />} />
                     <Route path="/cat" element={<Categories />} />
                     <Route path="/:cat" element={<ItemsList />} />
-                    <Route path="/:item.id" element={<ShowItem />} />
+                    <Route path="/ItemsList/:id" element={<ShowItem />} />
                 </Routes>
             </CategoryContext.Provider>
         </main>
