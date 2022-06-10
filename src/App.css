@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  margin: 5px;
+}
+.catList{
+  display: flex;
+  flex-flow: wrap
+}
+
+.cat{
+  border: 1px solid #282c34;
+  height: 100px;
+  width: 180px;;
+  color: cadetblue;
+  margin: 50px;
+  padding-top: 50px;
+}
+.cat.img{
+  border-radius: 20%;
+  height: 300px;
+  width: 380px;
+  margin: auto;
+}
+
+.cat img{
+  height: 90px;
+}
